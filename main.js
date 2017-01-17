@@ -16,6 +16,9 @@ import ReactDOM from 'react-dom'
 import FastClick from 'fastclick'
 import { Provider } from 'react-redux'
 
+// Include the base CSS
+import base from './styles/base.css'
+
 import store from './core/store'
 import router from './core/router'
 import history from './core/history'

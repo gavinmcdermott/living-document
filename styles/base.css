@@ -36,6 +36,21 @@ html:before {
 }
 
 html,
+body {
+  height: 100%;
+  min-height: 100%;
+  width: 100%
+}
+
+body {
+  background-color: #fff;
+  color: #000033;
+  font-family: 'Avenir Book', 'Helvetic-Neue', Helvetica, Arial, sans-serif;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+html,
 body,
 div,
 span,
@@ -85,51 +100,38 @@ td {
   font-weight: inherit;
   font-style: inherit;
   font-size: 100%;
-  font-family: inherit;
   vertical-align: baseline;
   line-height: 1.5em
 }
-html,
-body {
-  height: 100%;
-  min-height: 100%;
-  width: 100%
-}
+
 a,
 span {
   line-height: inherit
 }
+
 ul {
   list-style: none
 }
-body {
-  background-color: #fff;
-  color: #000033;
-  font-family: 'Avenir Book', 'Helvetic-Neue', Helvetica, Arial, sans-serif;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-}
+
 table {
   border-collapse: separate;
   border-spacing: 0
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
   content: ""
 }
+
 blockquote,
 q {
   quotes: """"
 }
 
-
-/*.selfclear:before,
-.selfclear:after {
-  content:" ";
-  display:table
+p {
+  font-size: 18px;
+  line-height: 24px;
 }
-.selfclear:after {
-  clear:both
-}*/
+

@@ -14,5 +14,3 @@ file) using composes keyword */
 	composes: unit from './../../styles/grid.css';
 	composes: size1of4 from './../../styles/grid.css';
 }
-
-

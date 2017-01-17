@@ -27,10 +27,13 @@
 .lastUnit,
 .unit {
   overflow: hidden;
+  float: left;
   -moz-background-clip: padding-box !important;
   -webkit-background-clip: padding-box !important;
   background-clip: padding-box !important;
-  float: left
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .lastUnit,
